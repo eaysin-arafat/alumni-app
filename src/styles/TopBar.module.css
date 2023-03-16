@@ -1,0 +1,32 @@
+.container {
+  z-index: 1009;
+  height: 50px;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #002147;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.barList {
+  list-style-type: none;
+  display: flex;
+}
+
+.lists {
+  margin: 15px auto;
+  font-size: 15px;
+}
+
+.lists ul li {
+  margin: 0 12px;
+  font-weight: 550;
+}
+
+.lists ul li:hover {
+  color: white;
+}
+.searchBtn {
+  position: absolute;
+  margin: 15px 70px;
+}

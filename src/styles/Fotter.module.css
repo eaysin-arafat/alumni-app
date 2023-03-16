@@ -1,0 +1,76 @@
+.wrapper {
+  background-color: #002147;
+  color: #beb8b8;
+}
+
+.container {
+  padding-bottom: 10px;
+  margin: 90px 90px 10px 90px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.information {
+  display: flex;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.information p:hover {
+  border-bottom: 1px solid white;
+  color: white;
+  display: block;
+}
+
+.aboutInformation p {
+  font-size: 15px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.information p {
+  font-size: 13px;
+  display: block;
+}
+
+.about img {
+  height: 76px;
+  width: 187px;
+  object-fit: cover;
+  color: white;
+}
+
+.infoText {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.aboutItem {
+  margin-top: 20px;
+  width: 300px;
+}
+
+.aboutIcon {
+  margin-top: 25px;
+  display: flex;
+}
+
+.icon {
+  height: 50px;
+  width: 40px;
+}
+
+.footerText {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #838383;
+}
+
+.footerText a {
+  color: white;
+}
