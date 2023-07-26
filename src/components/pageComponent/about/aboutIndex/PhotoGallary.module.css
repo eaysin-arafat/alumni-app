@@ -1,0 +1,125 @@
+.wrapper {
+  height: 60vh;
+  background-color: #002147;
+  overflow: hidden;
+}
+
+.content {
+  margin: 20px 90px;
+}
+
+.content h1 {
+  color: white;
+  margin: 30px 0;
+}
+
+.imageContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.imageGallery {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.box {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.defineImg {
+  height: 180px;
+  width: 250px;
+  object-fit: cover;
+  transition: all 0.2s;
+}
+
+.box:hover .defineImg {
+  opacity: 0.2;
+  filter: blur(3px);
+  transform: scale(1.05);
+}
+
+.boxContent {
+  color: #fff;
+  width: 100%;
+  opacity: 0;
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transition: all 0.4s ease 0s;
+}
+
+.box:hover .boxContent {
+  opacity: 1;
+}
+
+.box .title {
+  padding: 0 7px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin: 0 0 8px;
+}
+
+.box .icon {
+  text-align: center;
+  display: inline-block;
+}
+
+.box .icon svg {
+  color: #fff;
+  font-size: 14px;
+  width: 35px;
+  height: 35px;
+  display: block;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+}
+.box .icon svg:hover {
+  color: #f83600;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal img {
+  max-width: 90% !important;
+  max-height: 90% !important;
+  object-fit: cover;
+}
+
+.modal div {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.modal div svg {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 2px;
+  padding: 4px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}

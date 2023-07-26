@@ -1,0 +1,53 @@
+.wrapper {
+  width: 100vw;
+  height: 72vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+}
+
+/* prevImage */
+.prevImg {
+  width: 10vw;
+  height: 100vh;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+/* content */
+.content {
+  height: 500px;
+  display: flex;
+  width: 82vw;
+}
+
+.contentImag {
+  width: 50%;
+}
+
+.Contentdesc {
+  background-color: #002147;
+  color: white;
+  width: 50%;
+  padding: 60px;
+}
+
+.Contentdesc h2 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.Contentdesc p {
+  margin-top: 30px;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+/* nextImage */
+.nextImg {
+  width: 8vw;
+  object-fit: cover;
+  filter: grayscale(100%);
+}

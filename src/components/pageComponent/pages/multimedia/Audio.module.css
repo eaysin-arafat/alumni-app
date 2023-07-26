@@ -1,0 +1,66 @@
+.wrapper {
+  height: auto;
+  width: 100vw;
+}
+
+.container {
+  margin: 38px 90px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.top h2 {
+  font-size: 30px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.soundcloud {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  /* height: 100%; */
+  width: 100%;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #002147;
+}
+
+.descText {
+  font-size: 21px;
+  line-height: 30px;
+  color: #464646;
+}

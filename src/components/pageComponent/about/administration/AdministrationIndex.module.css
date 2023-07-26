@@ -1,0 +1,29 @@
+.wrapper {
+  width: 100vw;
+  height: 64vh;
+}
+
+.container {
+  margin: 0px 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  width: 65vw;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.content h1 {
+  font-size: 35px;
+}
+
+.content .titletext {
+  font-size: 23px;
+}
+
+.content .descText {
+  line-height: 30px;
+}

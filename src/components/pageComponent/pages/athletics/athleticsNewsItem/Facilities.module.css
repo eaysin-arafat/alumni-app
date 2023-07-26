@@ -1,0 +1,28 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin-top: 55px;
+}
+
+.image {
+  height: 100%;
+  width: 200%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.text p {
+  color: rgb(73, 73, 73);
+  font-size: 15px;
+  line-height: 30px;
+}

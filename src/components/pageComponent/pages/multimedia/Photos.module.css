@@ -1,0 +1,191 @@
+.wrapper {
+  height: 95vh;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.container {
+  margin: 20px 90px 50px 90px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* left */
+.left {
+  height: auto;
+  width: 48%;
+}
+
+.left h2 {
+  font-size: 30px;
+  margin: 30px 0;
+}
+
+.left p {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgb(114, 114, 114);
+}
+
+.hoverButton {
+  margin: 30px 0;
+}
+
+.imageGallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.box {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  flex: 0 0 calc(33.33% - 10px);
+  margin: 5px;
+}
+
+.defineImg {
+  height: 120px;
+  width: 165px;
+  object-fit: cover;
+  transition: all 0.2s;
+}
+
+.box:hover .defineImg {
+  opacity: 0.2;
+}
+
+.boxContent {
+  color: #002147;
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 38%;
+  transition: all 0.4s ease 0s;
+}
+
+.box:hover .boxContent {
+  opacity: 1;
+}
+
+.box .icon {
+  text-align: center;
+  display: inline-block;
+}
+
+.box .icon svg {
+  color: #fff;
+  font-size: 14px;
+  width: 35px;
+  height: 35px;
+  display: block;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+}
+.box .icon svg:hover {
+  color: #f83600;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal img {
+  max-width: 90% !important;
+  max-height: 90% !important;
+  object-fit: cover;
+}
+
+.modal div {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.modal div svg {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 2px;
+  padding: 4px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+/* right */
+.right {
+  width: 51%;
+  margin-top: 58px;
+}
+
+.imageClass {
+  width: 100%;
+  position: relative;
+}
+
+.slideImg {
+  height: 350px;
+  width: 100%;
+}
+
+.imageClass:hover .slidericon svg {
+  opacity: 1;
+  color: #002147;
+}
+
+.sliderboxContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #002147;
+  width: 100%;
+  position: absolute;
+  top: 43%;
+  padding: 0 30px;
+  transition: all 0.4s ease 0s;
+}
+
+.slidericon svg {
+  color: white;
+  background-color: transparent;
+  font-size: 55px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.button {
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: center; */
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #6d6d6d;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 3px;
+}
+
+/* .button:hover .slidericon svg {
+  opacity: 0 !important;
+} */

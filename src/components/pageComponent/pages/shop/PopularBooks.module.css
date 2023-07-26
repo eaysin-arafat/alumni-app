@@ -1,0 +1,36 @@
+.content {
+  padding-bottom: 11px;
+  display: flex;
+  gap: 6px;
+  border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.image {
+  padding: 10px;
+  height: 100px;
+  width: 90px;
+  object-fit: fill;
+}
+
+.bookdetails {
+  padding: 0 10px;
+  width: 80%;
+  height: 100%;
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: rgb(138, 138, 138);
+}
+
+.nameText {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* adjust this value to limit the number of lines */
+  overflow: hidden;
+  line-height: 25px;
+}

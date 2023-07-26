@@ -1,0 +1,39 @@
+.wrapper {
+  height: 195vh;
+}
+
+.container {
+  margin: 0 90px;
+}
+
+.departmentLists {
+  display: flex;
+  gap: 35px;
+  border-top: 1px solid rgb(177, 177, 177);
+  margin-bottom: 20px;
+}
+
+.departmentLists .image {
+  width: 30%;
+  height: 100%;
+}
+
+.departmentLists h4 {
+  font-size: 27px;
+  width: 30%;
+}
+
+.departments {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.department {
+  font-size: 15px !important;
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}

@@ -1,0 +1,87 @@
+.sliderContainer {
+  position: relative;
+  width: 100vw;
+  height: 100vh; /* Set the desired height of the slider */
+  overflow: hidden;
+}
+
+.sliderImage {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.sliderImage.active {
+  opacity: 1;
+}
+
+.content {
+  z-index: 9999;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 33, 71, 0.4);
+  text-align: center;
+}
+
+/* animation Text */
+.textWrapper {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.textWrapper h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.textWrapper h5 {
+  font-size: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+}
+
+.textWrapper p {
+  font-size: 15px;
+  margin: 0 200px;
+  margin-bottom: 20px;
+}
+
+.textWrapper button {
+  font-weight: 600;
+  font-size: 15px;
+  background-color: transparent;
+  outline: none;
+  padding: 10px;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+button svg {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.textWrapper button:hover {
+  background-color: white;
+  color: #002147;
+}

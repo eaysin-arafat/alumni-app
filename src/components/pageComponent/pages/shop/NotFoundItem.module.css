@@ -1,0 +1,20 @@
+.notFound {
+  padding: 0 40px;
+  height: 65px;
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #00aaff;
+}
+
+.notFound svg {
+  color: #00aaff;
+  font-size: 17px;
+}
+
+.notFoundMessage {
+  color: #6e6e6e;
+}

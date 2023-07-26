@@ -1,0 +1,16 @@
+.relatedInformation {
+  height: 45vh;
+  padding: 45px;
+  color: white;
+  background: #002147;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.checkBoxWrapper {
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}

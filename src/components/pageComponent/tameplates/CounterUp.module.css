@@ -1,0 +1,20 @@
+.numberOfClass {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.numberOfClass h2 {
+  color: #002147;
+  font-size: 35px;
+}
+
+.numberOfClass h5 {
+  color: #002147;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+
+.numberOfClass p {
+  font-size: 15px;
+  color: rgb(106, 107, 107);
+}

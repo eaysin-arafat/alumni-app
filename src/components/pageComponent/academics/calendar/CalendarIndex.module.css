@@ -1,0 +1,47 @@
+.wrapper {
+  height: 157vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  /* gap: 35px; */
+}
+
+.titleText {
+  margin: 23px 90px;
+}
+
+.yearLists {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.firstList {
+  margin-bottom: -100px;
+}
+
+.year {
+  margin: 0 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center !important;
+  height: 70vh;
+}
+
+.monthWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.secondList {
+  background-color: rgb(202, 201, 201);
+  margin-bottom: -90px;
+  padding-top: 30px;
+}

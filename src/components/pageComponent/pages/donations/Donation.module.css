@@ -1,0 +1,77 @@
+.content {
+  background-color: white;
+}
+
+.image {
+  height: 190px;
+  width: 350px;
+}
+
+.header h3 {
+  padding: 0 20px;
+  color: #002147;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.process {
+  padding: 0 20px;
+  margin-top: 30px;
+}
+
+.progressBarText {
+  color: rgb(90, 90, 90);
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.processDetailsText {
+  text-transform: uppercase;
+}
+
+.progressBar {
+  width: 100%;
+  height: 5px;
+  background-color: #f2f2f2;
+}
+
+.progressBarFill {
+  height: 100%;
+  background-color: #002147;
+  transition: width 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.progressBarFill .increaseIcon {
+  height: 10px;
+  width: 5px;
+  color: #8c1515;
+  position: absolute;
+  left: 0;
+}
+
+.button {
+  margin: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #002147;
+  font-weight: bold;
+  padding: 0 15px;
+  background-color: transparent;
+  height: 45px;
+  border: 2px solid #b3b3b3;
+  cursor: not-allowed;
+}

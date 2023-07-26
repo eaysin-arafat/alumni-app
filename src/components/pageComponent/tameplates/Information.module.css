@@ -1,0 +1,75 @@
+.header h2 {
+  color: #002147;
+}
+
+.lacture {
+  display: flex;
+  gap: 20px;
+}
+
+.dateWrapper {
+  width: 35%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #002147;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.manthText {
+  background-color: #002147;
+  color: white;
+  height: 80%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dateText {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.lectureDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 10px;
+}
+
+.time {
+  display: flex;
+  gap: 8px;
+}
+
+.time svg {
+  color: #8c1515;
+  font-weight: 800;
+}
+
+.place {
+  display: flex;
+  gap: 8px;
+}
+
+.place svg {
+  color: #8c1515;
+  font-weight: 800;
+}
+
+.lacturarText {
+  font-size: 19px;
+}
+
+.lacturarText:hover {
+  color: #8c1515;
+}

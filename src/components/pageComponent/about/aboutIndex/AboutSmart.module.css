@@ -1,0 +1,43 @@
+.wrapper {
+  height: auto;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.container {
+  margin: 0px 90px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  width: 65vw;
+}
+
+.headerAbout h1 {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.headerAbout p {
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.descriptionAbout {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.descriptionAbout .img {
+  height: 255px;
+  width: 3300px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.descriptionAbout p {
+  line-height: 29px;
+}

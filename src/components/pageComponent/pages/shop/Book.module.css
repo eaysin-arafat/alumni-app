@@ -1,0 +1,90 @@
+.container {
+  background-color: #f5f5f5;
+  padding: 30px 5px 20px 5px;
+  border: 0.5px solid rgb(207, 207, 207);
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.container:hover {
+  background-color: white;
+}
+
+.container:hover .image {
+  opacity: 0.5;
+}
+
+.container:hover .category {
+  opacity: 0.5;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  height: 190px;
+  width: 140px;
+}
+
+.textPart {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #868686;
+  margin-bottom: 8px;
+}
+
+.bookName {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #8c1515;
+}
+
+.container:hover .hoverContent {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* hover content */
+.hoverContent {
+  cursor: pointer;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  /* transition: opacity 0.1s ease-in-out; */
+}
+
+.hoverText {
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #8c1515;
+  padding: 8px 20px;
+  border-radius: 3px;
+  color: white;
+  font-size: 15px;
+}
+
+.hoverText svg {
+  font-size: 18px;
+}

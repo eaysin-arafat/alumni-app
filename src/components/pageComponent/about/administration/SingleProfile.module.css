@@ -1,0 +1,56 @@
+.wrapper {
+  width: 78vw;
+  /* height: 45vh; */
+}
+
+.container {
+  margin: 0 90px;
+}
+
+.content {
+  display: flex;
+  gap: 30px;
+}
+
+.image {
+  height: 230px;
+  width: 350px;
+  object-fit: cover;
+}
+
+.jobTitle {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #8c1515;
+  margin-left: 2px;
+}
+
+.profileDetails h3 {
+  font-size: 21px;
+  margin: 20px 0;
+}
+
+.profileDesc {
+  color: #5c5c5c;
+  line-height: 35px;
+  margin-bottom: 25px;
+}
+
+.iconGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.iconGroup svg {
+  font-size: 25px;
+  background-color: #8c1515;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.fullDetailsLink {
+  margin-top: 33px;
+}

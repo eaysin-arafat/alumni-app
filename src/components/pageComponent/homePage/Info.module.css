@@ -1,0 +1,46 @@
+.container {
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  margin: 0 90px;
+  /* bottom: -120px; */
+}
+
+.firstChild {
+  background: #002147 !important;
+  color: white;
+}
+
+.content {
+  background: white;
+  height: 114px;
+  width: 255px;
+  text-align: start;
+  padding: 20px;
+  border-top: 3px solid #002147;
+  background: linear-gradient(#ffffff, #ffffff 50%, #002147 50%, #002147);
+  background-size: 100% 200%;
+  /*trasition effect for background*/
+  transition: background 0.4s;
+}
+
+.content p {
+  font-size: 13px;
+  color: #8c1515;
+  margin-bottom: 7px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.content h3 {
+  font-weight: 550;
+}
+
+.content:hover {
+  background-position: -100% -100%;
+  color: #ffffff;
+}
+
+.subscriber {
+  background-color: #002147;
+}

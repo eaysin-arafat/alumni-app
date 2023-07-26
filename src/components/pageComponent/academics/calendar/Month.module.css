@@ -1,0 +1,22 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.content h2 {
+  font-weight: 400;
+}
+
+.dateDesc {
+  display: flex;
+  gap: 8px;
+}
+
+.dateDesc svg {
+  color: #8c1515;
+}
+
+.dayText {
+  color: #3b3b3b;
+}

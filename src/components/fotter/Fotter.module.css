@@ -1,0 +1,122 @@
+.wrapper {
+  color: #8f8f8f;
+  background-color: #002147;
+}
+
+.container {
+  padding-bottom: 10px;
+}
+
+.content {
+  background-color: #002147;
+}
+
+.fotterWrapper {
+  margin: 30px 90px 0 90px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+  display: flex;
+  justify-content: space-between;
+}
+
+.information {
+  display: flex;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.information p {
+  border-bottom: 2px solid transparent;
+}
+
+.information p:hover {
+  border-bottom: 2px solid white;
+  color: white;
+  display: block;
+}
+
+.aboutInformation p {
+  font-size: 15px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.information p {
+  font-size: 13px;
+  display: block;
+}
+
+.about img {
+  height: 76px;
+  width: 187px;
+  object-fit: cover;
+  color: white;
+}
+
+.infoText {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.aboutItem {
+  margin-top: 20px;
+  width: 300px;
+}
+
+.aboutIcon {
+  margin-top: 25px;
+  display: flex;
+}
+
+.icon {
+  height: 50px;
+  width: 40px;
+}
+
+.footerText {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #838383;
+}
+
+.footerText a {
+  color: white;
+}
+
+/* appling content */
+
+.appling {
+  background: #3277ae !important;
+  padding: 50px 0;
+}
+
+.applingContent {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 90px;
+}
+
+.applingContent button {
+  height: 55px;
+  width: 196px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 2px solid white;
+  gap: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 2px solid white;
+  font-weight: 600;
+  transition-duration: 0.3s;
+}
+
+.applingContent button:hover {
+  background-color: white !important;
+  color: #002147;
+}

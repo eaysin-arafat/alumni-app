@@ -1,0 +1,105 @@
+.wrapper {
+  height: 90vh;
+  width: 100vw;
+}
+
+.container {
+  margin: 0 90px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+.content h2 {
+  font-size: 30px;
+}
+
+.dayList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mealLists {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three rows of equal height */
+  grid-template-rows: 1fr; /* One column that takes up all available space */
+  gap: 15px;
+}
+
+.mealList h2 {
+  margin-bottom: 25px;
+}
+
+.foodDetailsLists {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list {
+  display: flex;
+  gap: 13px;
+}
+
+.image {
+  width: 105px;
+  height: 105px;
+}
+
+.foodDesc {
+  width: 65%;
+}
+
+.foodDesc h4 {
+  font-size: 15px;
+  color: #002147;
+  margin-bottom: 7px;
+}
+
+.foodDesc .foodDescText {
+  font-size: 12px;
+  line-height: 20px;
+  color: rgb(134, 134, 134);
+}
+
+.menuButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuButton .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #8c1515;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 8px;
+  width: 198px;
+  height: 47px;
+  background-color: white;
+  margin-top: 15px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.menuButton .button svg {
+  text-align: center;
+  font-size: 20px;
+}
+
+.menuButton .button:hover {
+  background-color: #8c1515;
+  color: white;
+}

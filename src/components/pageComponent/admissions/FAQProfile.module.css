@@ -1,0 +1,48 @@
+/*  */
+.staffProfile {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.profile {
+  display: flex;
+  gap: 15px;
+}
+
+.image {
+  height: 120px;
+  width: 120px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  height: 90%;
+}
+
+.descText {
+  font-size: 15px;
+}
+
+.phone {
+  font-size: 18px;
+  display: flex;
+  gap: 10px;
+}
+
+.phone svg {
+  color: #8c1515;
+}
+
+.email {
+  font-size: 18px;
+  display: flex;
+  gap: 10px;
+}
+
+.email svg {
+  color: #8c1515;
+}

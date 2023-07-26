@@ -1,0 +1,52 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 210px;
+  overflow: hidden;
+}
+
+.imgItem {
+  height: 100%;
+  width: 100%;
+}
+
+.img {
+  object-fit: cover;
+  height: 100%;
+  width: 600px;
+}
+
+.newsListItemContent {
+}
+
+.newsListItem {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.catagory {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #8c1515;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.desc {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.date {
+  font-size: 13px;
+  color: #7e7c7c;
+}

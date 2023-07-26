@@ -1,0 +1,51 @@
+.wrapper {
+  height: 70vh;
+  width: 100vw;
+}
+
+.container {
+  margin: 0 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.container h2 {
+  font-size: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.texts {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.texts h4 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.texts .textDesc {
+  font-size: 15px;
+  line-height: 30px;
+  color: rgb(129, 128, 128);
+}
+
+.img {
+  width: 40vw;
+  overflow: hidden;
+}
+
+.image {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+}

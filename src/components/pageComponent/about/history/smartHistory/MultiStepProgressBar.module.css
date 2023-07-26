@@ -1,0 +1,8 @@
+.subtitle {
+  position: absolute;
+  font-weight: 600;
+  cursor: pointer;
+  /* color: black; */
+  z-index: 9999;
+  /* background-color: red; */
+}

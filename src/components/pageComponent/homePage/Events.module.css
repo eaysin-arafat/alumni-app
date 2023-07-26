@@ -1,0 +1,53 @@
+.container {
+  margin-top: 68px;
+  overflow: hidden;
+  width: 100vw;
+  height: 80vh;
+  background-image: url("../../../assets/event-background.jpg");
+  background-size: cover;
+}
+
+.content {
+  margin: 50px 90px;
+}
+
+.content header {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 15px;
+}
+
+.content header h1 {
+  font-size: 40px;
+}
+
+.content header p span {
+  border-bottom: 2px solid white;
+}
+
+.content header p {
+  margin-top: 5px;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.content header p::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fffefe;
+  transition: width 0.5s;
+}
+
+.content header p:hover::after {
+  width: 100%;
+}
+
+.events {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  margin-top: 40px;
+}

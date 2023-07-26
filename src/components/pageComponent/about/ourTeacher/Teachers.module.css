@@ -1,0 +1,26 @@
+.wrapper {
+  height: 60vh;
+  width: 100vw;
+}
+
+.conatiner {
+  margin: 0 90px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.teacherWrapper {
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  gap: 25px;
+}

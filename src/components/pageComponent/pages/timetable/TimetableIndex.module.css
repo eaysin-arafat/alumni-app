@@ -1,0 +1,28 @@
+.wrapper {
+  height: auto;
+  width: 100vw;
+}
+
+.container {
+  margin: 0 90px;
+}
+
+.container h2 {
+  font-size: 30px;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.timetable {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1px;
+  grid-template-rows: repeat(17, 48px);
+  background-color: white;
+  margin-bottom: 50px;
+}

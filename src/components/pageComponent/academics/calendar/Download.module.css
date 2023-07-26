@@ -1,0 +1,33 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  gap: 10px;
+  padding: 10px;
+  box-shadow: 2px;
+  transition: all 0.3s ease;
+}
+
+.content:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.content svg {
+  height: 100%;
+  font-size: 38px;
+  color: #8c1515;
+}
+
+.text {
+}
+
+.text h3 {
+  font-size: 17px;
+  color: #8c1515;
+}
+
+.downloadText {
+  font-size: 15px;
+  color: rgb(88, 88, 88);
+}

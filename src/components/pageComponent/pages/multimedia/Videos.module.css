@@ -1,0 +1,158 @@
+.wrapper {
+  height: auto;
+  width: 100vw;
+  margin: 30px 90px 50px 90px;
+}
+
+.header {
+  margin: 35px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.main {
+  display: flex;
+  gap: 30px;
+}
+
+.video {
+  width: 40%;
+  overflow: hidden;
+}
+
+.video:hover h3 {
+  color: #8c1515;
+}
+
+.video h3 {
+  margin: 30px 0 17px 0;
+}
+
+.video p {
+  color: rgb(81, 81, 82);
+  line-height: 27px;
+  overflow: hidden;
+}
+
+.videoImg {
+  object-fit: fill;
+  height: 330px;
+  width: 100%;
+  /* transition: transform 0.5s ease; */
+}
+/*  */
+
+.imageGallery {
+  overflow: hidden;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.imgDesc {
+  display: flex;
+  gap: 20px;
+}
+
+.defineImg {
+  width: 30%;
+  display: inline-block;
+  display: inline-block;
+  max-height: 120px;
+  object-fit: cover;
+  transition: all 0.2s;
+}
+
+.desc {
+  display: block;
+  width: 70%;
+  margin-right: 10%;
+  text-align: left;
+}
+
+.box:hover .defineImg {
+  opacity: 0.4;
+  /* transform: scale(1.05); */
+}
+
+.boxContent {
+  color: #fff;
+  width: 32%;
+  opacity: 0;
+  /* transform: translateY(-50%); */
+  position: absolute;
+  top: 36%;
+  right: 71%;
+  transition: all 0.4s ease 0s;
+}
+
+.box:hover .boxContent {
+  opacity: 1;
+}
+
+.box .icon {
+  text-align: center;
+  display: inline-block;
+}
+
+.box .icon svg {
+  color: #fff;
+  font-size: 14px;
+  width: 35px;
+  height: 35px;
+  display: block;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+}
+.box .icon svg:hover {
+  color: #f83600;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal img {
+  max-width: 90% !important;
+  max-height: 90% !important;
+  object-fit: cover;
+}
+
+.modal div {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.modal div svg {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 2px;
+  padding: 4px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}

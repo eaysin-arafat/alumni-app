@@ -1,0 +1,22 @@
+.content {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.titleEvent {
+  width: 60%;
+  display: block;
+}
+
+.image {
+  height: 220px;
+  width: 100%;
+}
+
+.eventList {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 10px; /* adds gap between grid items */
+}

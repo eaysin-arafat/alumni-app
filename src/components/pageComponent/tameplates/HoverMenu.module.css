@@ -1,0 +1,36 @@
+.hoverMenu ul {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  align-items: center;
+  list-style: none;
+  font-weight: 600;
+}
+
+.nonHoveredText {
+  background: #002147 !important;
+  border: none !important;
+  color: white;
+}
+
+.hoverMenu ul li {
+  border-top: 4px solid #8c1515;
+  min-height: 50px;
+  padding: 5px;
+  /* width: 147px; */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#f5f5f5, #f5f5f5 50%, #8c1515 50%, #8c1515);
+  background-size: 100% 200%;
+  /*trasition effect for background*/
+  transition: background 0.4s;
+  overflow: hidden;
+  line-height: 22px;
+}
+
+.hoverMenu ul li:hover {
+  background-position: -100% -100%;
+  color: white;
+}

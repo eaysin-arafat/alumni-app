@@ -1,0 +1,35 @@
+.mealList h2 {
+  margin-bottom: 25px;
+}
+
+.foodDetailsLists {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list {
+  display: flex;
+  gap: 13px;
+}
+
+.image {
+  width: 105px;
+  height: 105px;
+}
+
+.foodDesc {
+  width: 65%;
+}
+
+.foodDesc h4 {
+  font-size: 15px;
+  color: #002147;
+  margin-bottom: 7px;
+}
+
+.foodDesc .foodDescText {
+  font-size: 12px;
+  line-height: 20px;
+  color: rgb(134, 134, 134);
+}

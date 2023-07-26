@@ -1,0 +1,14 @@
+.wrapper {
+  height: 42vh;
+  background: white;
+  overflow: hidden;
+}
+
+.content {
+  text-align: center;
+  margin: 50px 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}

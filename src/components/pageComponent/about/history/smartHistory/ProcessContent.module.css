@@ -1,0 +1,26 @@
+.stepProcess {
+  color: rgb(0, 0, 0);
+  width: 1px;
+  height: 8px;
+  font-size: 12px;
+  background-color: rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+  z-index: 999;
+  transition: transform 0.5s 0s ease;
+}
+
+.subtitle {
+  position: absolute;
+  font-weight: 600;
+  cursor: pointer;
+  color: black;
+  left: -30px;
+  font-size: 12px;
+}
+
+.processContent {
+  display: flex;
+}

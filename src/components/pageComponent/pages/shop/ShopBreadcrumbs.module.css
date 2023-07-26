@@ -1,0 +1,93 @@
+.container {
+  width: 100vw;
+  height: 150px;
+  font-size: 15px;
+  position: relative;
+  background-size: fill;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 33, 71, 0.5), rgba(0, 33, 71, 0.5)),
+    url("../../../../assets/uzksgc01.bmp");
+}
+
+.content {
+  position: relative;
+  margin: 30px 90px 20px 90px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.text h2 {
+  font-size: 35px;
+  margin: 15px 0;
+}
+
+.breadcrumbs > * {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.disable {
+  color: #aaaaaa !important;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.breadcrumbs .crumb::after {
+  content: "/";
+  margin-left: 12px;
+}
+
+.breadcrumbs .crumb:last-child::after {
+  display: none;
+}
+
+.breadcrumbs .crumb a {
+  color: #002147;
+  text-transform: capitalize;
+}
+
+.shoppingCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+/* 
+.shoppingCard {
+  height: 80px;
+  width: 230px;
+  background-color: #8c1515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.card {
+  padding: 5px 5px 5px 20px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgb(189, 189, 189);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card h2 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.cardText {
+  color: #808080;
+} */

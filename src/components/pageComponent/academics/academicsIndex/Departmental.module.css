@@ -1,0 +1,90 @@
+.wrapper {
+  height: 190vh;
+  width: 100vw;
+}
+
+.container {
+  margin: 0 90px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.rightRow {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.leftRow {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.importantDtaes {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: auto;
+  padding: 45px;
+}
+
+.importantDtaes h2 {
+  color: #002147;
+}
+
+.hoverButton {
+  margin-top: 25px;
+  color: #002147;
+  display: block !important;
+}
+
+.relatedInformation {
+  height: 45vh;
+  padding: 45px;
+  color: white;
+  background: #002147;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.checkBoxWrapper {
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.numbering {
+  overflow: hidden;
+  height: 70vh;
+  background-color: white;
+  padding: 45px;
+}
+
+.numberingHeader {
+  font-size: 12px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  text-align: center;
+}
+
+.numberingHeader .liner {
+  background: #8c1515;
+  height: 1.8px;
+  width: 50px;
+  margin: 25px auto;
+}
+
+.numberingGroup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

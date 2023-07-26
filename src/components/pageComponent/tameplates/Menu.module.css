@@ -1,0 +1,43 @@
+.link {
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.linkConent {
+  padding: 20px 35px 10px 35px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-top: 4px solid #8c1515;
+  font-size: 18px;
+  line-height: 40px;
+  align-items: flex-start;
+}
+
+.linkConent li {
+  width: 100%;
+  list-style: none;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #949292;
+}
+
+.linkConent li:last-child {
+  border: none;
+}
+
+.linkConent li:first-child {
+  border: none;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.linkConent a {
+  color: black;
+  text-decoration: none;
+}
+
+.linkConent a:hover {
+  color: #8c1515;
+}

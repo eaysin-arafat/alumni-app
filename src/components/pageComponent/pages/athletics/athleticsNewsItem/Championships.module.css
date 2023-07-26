@@ -1,0 +1,33 @@
+.content {
+  display: flex;
+  gap: 15px;
+}
+
+.content i {
+  height: 100%;
+  width: 8%;
+  color: brown;
+}
+
+.sprotsDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.sprotsDetails h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.leagueName {
+  font-size: 14px;
+  color: #011935;
+  font-weight: 300;
+}
+
+.time {
+  font-size: 13px;
+  word-spacing: 2px;
+  color: #a0a0a0;
+}

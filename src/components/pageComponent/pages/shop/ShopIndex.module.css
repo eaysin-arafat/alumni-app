@@ -1,0 +1,161 @@
+.wrapper {
+  height: auto;
+  width: 100vw;
+}
+
+.container {
+  margin: 0 90px;
+}
+
+.up {
+  display: flex;
+  gap: 35px;
+}
+
+.left {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* select option */
+.leftWrapper {
+  padding: 0 40px;
+  height: 65px;
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.labelName {
+  font-size: 18px;
+  color: rgb(104, 103, 103);
+}
+
+.bookSelect {
+  border: 0.5px solid rgb(197, 197, 197);
+  background-color: transparent;
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #949393;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.bookOption {
+  padding: 0 30px;
+}
+
+/* book */
+
+.books {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/*  */
+.right {
+  width: 35vw;
+  margin-top: 28px;
+}
+
+.bestSalesBook {
+  margin-top: 24px;
+}
+
+.bestSalesBook h2 {
+  margin-bottom: 15px;
+}
+
+.bookList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* tag option */
+
+.tags {
+  margin: 20px 0;
+}
+
+.tags h2 {
+  font-size: 29px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.tag {
+  border: 0.5px solid rgb(197, 197, 197);
+  background-color: white;
+  margin: 5px;
+  font-size: 15px;
+  padding: 5px;
+  color: #002147;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tag:hover {
+  color: #8c1515;
+  border: 0.5px solid #8c1515;
+}
+
+/* bottom */
+.bottom {
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.bottom .icon {
+  border: 2px solid #8c1515;
+  height: 50px;
+  width: 48px;
+  font-weight: 600;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.icon svg {
+  height: 25px;
+  width: 25px;
+}
+
+.bottom .icon:hover {
+  border: 2px solid #002147;
+}
+
+.btn {
+  border: 2px solid #8c1515;
+  outline: none;
+  background-color: transparent;
+  font-weight: 600;
+  height: 50px;
+  width: 48px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  border: 2px solid #002147;
+}

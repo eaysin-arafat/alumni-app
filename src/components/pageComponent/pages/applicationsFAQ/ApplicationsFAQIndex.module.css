@@ -1,0 +1,107 @@
+.wrapper {
+  height: auto;
+  width: 100vw;
+}
+
+.container {
+  margin: 0 90px 40px 90px;
+}
+
+.content {
+  display: flex;
+  gap: 70px;
+}
+
+.left {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 28px;
+  overflow: hidden;
+}
+
+/* right */
+.right {
+  width: 35vw;
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+/* FAQ */
+.accorkingFAQ {
+  height: auto;
+}
+
+.accordion {
+  padding: 20px;
+  border: 1px solid #002147;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.accordion:hover .accorkingFAQHeading {
+  color: #8c1515;
+}
+
+.accordion:hover {
+  border: 1px solid #8c1515;
+}
+
+.active {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #1b1b1b;
+  margin-bottom: 10px;
+}
+
+.titleInactive {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accorkingBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordingActive {
+  display: none;
+}
+
+.inactive {
+  display: block;
+}
+
+/* tag */
+.tags h2 {
+  font-size: 29px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.tag {
+  border: 0.5px solid rgb(197, 197, 197);
+  background-color: white;
+  margin: 5px;
+  font-size: 15px;
+  padding: 5px;
+  color: #002147;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tag:hover {
+  color: #8c1515;
+  border: 0.5px solid #8c1515;
+}

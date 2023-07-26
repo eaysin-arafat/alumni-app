@@ -1,0 +1,112 @@
+.wrapper {
+  height: auto;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin: 40px 90px;
+}
+
+.missionPart {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+}
+
+.messionTitle {
+  font-size: 30px;
+}
+
+.messionDesc {
+  font-size: 15.5px;
+  color: #585858;
+  line-height: 28px;
+}
+
+.lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  line-height: 23px;
+  font-size: 15.5px;
+  color: #585858;
+}
+
+.list svg {
+  min-width: 18px;
+  color: #8c1515;
+  cursor: pointer;
+}
+
+/* FAQ part */
+
+.FAQPart h2 {
+  font-size: 30px;
+}
+
+.accorkingFAQ {
+  margin-top: 30px;
+  width: 360px;
+}
+
+.accordion {
+  padding: 20px;
+  border: 1px solid #002147;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.accordion:hover .accorkingFAQHeading {
+  color: #8c1515;
+}
+
+.accordion:hover {
+  border: 1px solid #8c1515;
+}
+
+.active {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #1b1b1b;
+  margin-bottom: 10px;
+}
+
+.titleInactive {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.accorkingBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordingActive {
+  display: none;
+  font-size: 15.5px;
+  color: #585858;
+}
+
+.inactive {
+  display: block;
+  font-size: 15.5px;
+  color: #585858;
+}

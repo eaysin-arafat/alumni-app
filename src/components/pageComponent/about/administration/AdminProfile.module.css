@@ -1,0 +1,20 @@
+.conainer {
+  width: 100vw;
+}
+
+.content {
+  height: 100%;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.border {
+  margin-left: 90px;
+  background-color: rgb(172, 172, 172);
+  height: 1px;
+  width: 78vw;
+}

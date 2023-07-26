@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 23px;
+}
+
+.list::first-line {
+  line-height: 1;
+}
+
+.list svg {
+  min-width: 18px;
+  color: #8c1515;
+}

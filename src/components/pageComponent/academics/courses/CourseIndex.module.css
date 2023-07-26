@@ -1,0 +1,88 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  margin: 0 90px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.rightRow {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rightRow h2 {
+  font-size: 30px;
+}
+
+.tableWrapper {
+  background-color: white;
+  font-size: 13.5px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-auto-columns: minmax(100px, 1fr);
+  grid-gap: 15px;
+}
+
+.tableWrapper ul {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  padding: 10px 22px;
+}
+
+.tableWrapper ol {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  font-size: 13px;
+  background-color: #002147;
+  color: white !important;
+  text-transform: uppercase;
+  padding: 10px 22px;
+  margin-bottom: -7px;
+}
+
+.tableWrapper ul {
+  border-bottom: 1px solid rgb(197, 196, 196);
+}
+
+.tableWrapper ul li:nth-child(2),
+.tableWrapper ul li:nth-child(3) {
+  color: #333333;
+}
+
+.tableWrapper ul li:nth-child(3),
+.tableWrapper ol li:nth-child(3) {
+  text-align: right;
+}
+
+.leftRow {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.importantDtaes {
+  background-color: white;
+  height: 45vh;
+  padding: 35px 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.textAndButton {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 25px;
+}

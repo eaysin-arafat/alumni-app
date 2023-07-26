@@ -1,0 +1,22 @@
+.LinkStyle {
+  font-size: 18px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.LinkStyle::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #8c1515;
+  transition: width 0.5s;
+}
+
+.LinkStyle:hover::after {
+  width: 100%;
+}
+
+.LinkStyle span {
+  border-bottom: 2px solid #8c1515;
+}

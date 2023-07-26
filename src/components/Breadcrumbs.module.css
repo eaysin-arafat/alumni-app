@@ -1,0 +1,30 @@
+.breadcrumbs {
+  max-width: 1200px;
+  margin: 30px 90px 20px 90px;
+  font-size: 15px;
+}
+
+.breadcrumbs > * {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.disable {
+  color: #808080 !important;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.breadcrumbs .crumb::after {
+  content: "/";
+  margin-left: 12px;
+}
+
+.breadcrumbs .crumb:last-child::after {
+  display: none;
+}
+
+.breadcrumbs .crumb a {
+  color: #002147;
+  text-transform: capitalize;
+}

@@ -1,0 +1,61 @@
+.contentList {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  display: block;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.teacherDesc {
+  position: absolute;
+  width: 100%;
+  padding: 16px;
+  background-color: white;
+  height: 30%;
+  transition: all 0.4s ease;
+  overflow: hidden;
+  bottom: 0;
+  cursor: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.teacherDesc h5 {
+  color: #8c1515;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.contentList:hover .teacherDesc {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  /* top: 105px; */
+  transform: translateY(-50px);
+}
+
+.iconGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 65px;
+  padding: 0 15px;
+}
+
+.iconGroup svg {
+  font-size: 30px;
+  background-color: #8c1515;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
